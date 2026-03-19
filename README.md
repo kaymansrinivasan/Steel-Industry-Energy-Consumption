@@ -1,5 +1,5 @@
 # Industrial Energy Consumption Analysis and Cost Optimization
-
+![TNB_Bill_Energy.png](TNB_Bill_Energy.png)
 ## Overview
 This project analyzes industrial energy consumption using 15-minute interval data and maps it to TNB Time-of-Use (TOU) tariffs to identify cost inefficiencies and optimization opportunities.
 
@@ -59,3 +59,4 @@ Shifting ~20% of Peak load and reducing demand spikes can lead to:
 
 ## Author
 Kayman Srinivasan
+
