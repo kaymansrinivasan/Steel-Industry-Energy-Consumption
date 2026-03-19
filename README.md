@@ -1,31 +1,61 @@
-1. Problem
+# Industrial Energy Consumption Analysis and Cost Optimization
 
-Industrial facility facing high electricity cost without clear visibility into usage patterns.
+## Overview
+This project analyzes industrial energy consumption using 15-minute interval data and maps it to TNB Time-of-Use (TOU) tariffs to identify cost inefficiencies and optimization opportunities.
 
-2. Objective
+---
 
-Analyze 15-min energy data and map consumption to TNB tariff to identify cost drivers.
+## Objective
+- Analyze energy usage patterns  
+- Identify cost drivers (Peak vs Off-Peak, Demand)  
+- Detect inefficiencies (spikes, low load factor)  
+- Simulate cost reduction strategies  
 
-3. Key Results
+---
 
-Identified 81% energy usage in peak tariff
+## Key Findings
+- 81% of energy consumed during Peak hours  
+- Maximum Demand: 628.72 kW  
+- Load Factor: 0.17 (inefficient usage)  
+- 277 demand spikes (~69 hours)  
+- Power Factor ≈ 0.80  
 
-Detected 277 demand spikes (~69 hours)
+---
 
-Load factor = 0.17 (high inefficiency)
+## Cost Breakdown
 
-Potential savings identified via load shifting
+| Component        | Cost (RM) |
+|----------------|----------|
+| Peak Energy     | 284,525 |
+| Off-Peak Energy | 52,593  |
+| Demand Charges  | 19,050  |
+| **Total Cost**  | **356,168** |
 
-4. Business Impact
+---
 
-Estimated savings: RM 10k–15k/year (partial optimization)
+## Optimization (Simulation)
 
-Improved operational efficiency through scheduling
+### Load Shifting
+Move part of Peak usage to Off-Peak
 
-5. Tools Used
+### Demand Control
+Reduce maximum demand by limiting spikes
 
-Python (Pandas, Matplotlib)
+---
 
-Data Analysis
+## Result
+Shifting ~20% of Peak load and reducing demand spikes can lead to:
 
-Energy Domain Knowledge (TOU, PF, Demand)
+**Estimated Savings: RM 20,000 – RM 25,000 annually**
+
+---
+
+## Tools Used
+- SQL (PostgreSQL Embed)
+- Python (Pandas, NumPy, Matplotlib)  
+- Data Analysis & Simulation  
+
+---
+
+## Author
+Kayman Srinivasan
