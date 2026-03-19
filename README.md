@@ -52,8 +52,8 @@ Shifting ~20% of Peak load and reducing demand spikes can lead to:
 
 ## Tools Used
 - SQL (PostgreSQL Embed)
-- Python (Pandas, NumPy, Matplotlib)  
-- Data Analysis & Simulation  
+- Python (Pandas, NumPy, Matplotlib, seaborn, sqlalchemy)  
+- Data Analysis, Data Science & Simulation 
 
 ---
 
